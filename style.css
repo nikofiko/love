@@ -1,0 +1,35 @@
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+    height: 100vh;
+	font-family: "Pacifico", cursive;
+}
+div{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#buttons{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 40px;
+}
+button{
+	font-family: "Pacifico", cursive;
+	text-shadow: 1px 1px 2px grey;
+	font-size: 18px;
+	border-radius: 30px;
+	border: 1px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-image: linear-gradient(to right, #fecdcd, #fccfcf, #f5d6d6, #f0dbdb);
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+h1{
+	text-shadow: 1px 1px 5px grey;
+}
